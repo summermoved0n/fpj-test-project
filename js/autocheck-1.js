@@ -136,7 +136,7 @@
 // console.log(checkAge(14));
 // console.log(checkAge(38));
 
-//! ЗАДАЧА: СКЛАД ТОВАРІВ
+// ! ЗАДАЧА: СКЛАД ТОВАРІВ
 
 // function checkStorage(available, ordered) {
 //   let message;
@@ -156,7 +156,7 @@
 // console.log(checkStorage(200, 150));
 // console.log(checkStorage(150, 180));
 
-//! ЗАДАЧА: ПЕРЕВІРКА БАЛАНСУ
+// ! ЗАДАЧА: ПЕРЕВІРКА БАЛАНСУ
 
 // function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
 //   let message;
@@ -178,7 +178,7 @@
 // console.log(makeTransaction(2000, 8, 10000));
 // console.log(makeTransaction(500, 10, 5000));
 
-//! if....else
+// ! if....else
 
 // function checkPassword(password) {
 //   const ADMIN_PASSWORD = 'jqueryismyjam';
@@ -200,7 +200,7 @@
 // console.log(checkPassword("polyhax"));
 // console.log(checkPassword("jqueryismyjam"));
 
-//! ЗАДАЧА: СКЛАД ТОВАРІВ 2.0
+// ! ЗАДАЧА: СКЛАД ТОВАРІВ 2.0
 
 // function checkStorage(available, ordered) {
 //   let message;
@@ -222,7 +222,7 @@
 // console.log(checkStorage(200, 250));
 // console.log(checkStorage(150, 0));
 
-//! Логічні оператори
+// ! Логічні оператори
 
 // function isNumberInRange(start, end, number) {
 //   const isInRange = number >= start && number <= end;
@@ -235,7 +235,7 @@
 // console.log(isNumberInRange(20, 50, 24));
 // console.log(isNumberInRange(20, 50, 76));
 
-//! Логічні оператори #2
+// ! Логічні оператори #2
 
 // function checkIfCanAccessContent(subType) {
 //   const canAccessContent = subType === "pro" || subType === "vip"; // Change this line
@@ -248,7 +248,7 @@
 // console.log(checkIfCanAccessContent("vip"));
 // console.log(checkIfCanAccessContent("free"));
 
-//! Логічні оператори #3
+// ! Логічні оператори #3
 
 // function isNumberNotInRange(start, end, number) {
 //   const isInRange = number >= start && number <= end;
