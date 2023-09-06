@@ -122,5 +122,99 @@
 // console.log(splitMessage("Mango", ""));
 // console.log(splitMessage("best_for_week", "_"));
 
+// ! ЗАДАЧА: ГРАВІРУВАННЯ ПРИКРАС
+
+// function calculateEngravingPrice(message, pricePerWord) {
+//    // Change code below this line
+
+//   if (message = message.split(" ")) {
+
+//     return message.length * pricePerWord;
+//   }
+//    // Change code above this line
+// }
+
+// console.log(calculateEngravingPrice("JavaScript is in my blood", 10))
+// console.log(calculateEngravingPrice("JavaScript is in my blood", 20))
+// console.log(calculateEngravingPrice("Web-development is creative work", 40))
+// console.log(calculateEngravingPrice("Web-development is creative work", 20))
+
+// ! Метод масивів join(delimiter)
+
+// function makeStringFromArray(array, delimiter) {
+//   let string;
+//   // Change code below this line
+//   string = array.join(delimiter);
 
 
+//   // Change code above this line
+//   return string;
+// }
+
+// console.log(makeStringFromArray(["Mango", "hurries", "to", "the", "train"], " "));
+// console.log(makeStringFromArray(["M", "a", "n", "g", "o"], ""));
+// console.log(makeStringFromArray(["top", "picks", "for", "you"], "_"));
+
+// ! ЗАДАЧА: ГЕНЕРАТОР SLUG
+
+// function slugify(title) {
+//   // Change code below this line
+//   if (title = title.split(" ")) {
+//     title = title.join("-");
+
+//     return title.toLowerCase();
+//   }
+
+
+
+//   // Change code above this line
+// }
+
+// console.log(slugify("Arrays for begginers"));
+// console.log(slugify("English for developer"));
+// console.log(slugify("Ten secrets of JavaScript"));
+// console.log(slugify("How to become a JUNIOR developer in TWO WEEKS"));
+
+// // let title = "Arrays for begginers";
+// // console.log(title);
+// // title = title.split(" ")
+// // console.log(title)
+// // title = title.join("-")
+// // console.log(title)
+// // title = title.toLowerCase()
+// // console.log(title)
+
+// ! Метод slice(begin, end)
+
+// const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
+
+// // Change code below this line
+// const firstTwoEls = fruits.slice(0, 2);
+// const nonExtremeEls = fruits.slice(1, fruits.length - 1);
+// const lastThreeEls = fruits.slice(-3);
+
+// console.log(firstTwoEls);
+// console.log(nonExtremeEls);
+// console.log(lastThreeEls);
+
+// ! Метод concat
+
+// const oldClients = ['Mango', 'Ajax', 'Poly', 'Kiwi'];
+// const newClients = ['Peach', 'Houston'];
+
+// const allClients = oldClients.concat(newClients); // Change this line
+// console.log(allClients);
+
+// ! ЗАДАЧА: КОМПОЗИЦІЯ МАСИВІВ
+
+function makeArray(firstArray, secondArray, maxLength) {
+    // Change code below this line
+  if (firstArray.concat(secondArray) <= maxLength) {
+    return firstArray.concat(secondArray);
+}
+
+
+    // Change code above this line
+}
+  
+console.log(makeArray(["Mango", "Poly"], ["Ajax", "Chelsea"], 3));
