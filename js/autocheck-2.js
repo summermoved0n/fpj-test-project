@@ -206,15 +206,47 @@
 // console.log(allClients);
 
 // ! ЗАДАЧА: КОМПОЗИЦІЯ МАСИВІВ
-
-function makeArray(firstArray, secondArray, maxLength) {
-    // Change code below this line
-  if (firstArray.concat(secondArray) <= maxLength) {
-    return firstArray.concat(secondArray);
-}
-
-
-    // Change code above this line
-}
   
-console.log(makeArray(["Mango", "Poly"], ["Ajax", "Chelsea"], 3));
+// function makeArray(firstArray, secondArray, maxLength) {
+
+//   const newArrey = firstArray.concat(secondArray);
+
+//   if (newArrey.length >= maxLength) {
+//     return newArrey.slice(0, maxLength)
+//   }
+
+//   return newArrey
+// }
+
+// console.log(makeArray(["Mango", "Poly"], ["Ajax", "Chelsea"], 3));
+// console.log(makeArray(["Mango", "Poly", "Houston"], ["Ajax", "Chelsea"], 4));
+// console.log(makeArray(["Mango"], ["Ajax", "Chelsea", "Poly", "Houston"], 3));
+// console.log(makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 2));
+// console.log(makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 4));
+// console.log(makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus", "Venus"], 0));
+
+// ! for
+
+// const start = 3;
+// const end = 7;
+
+// for (let i = start; i <= end; i += 1) { // Change this line
+//   console.log(i);
+// }
+
+// ! ЗАДАЧА: СУМА ЧИСЕЛ (ЦИКЛ FOR)
+
+function calculateTotal(number) {
+ // Change code below this line
+  let total = 0
+  for (let i = 1; i <= number; i++) {
+    total += i
+    }
+      return total
+}
+
+
+  // Change code above this line
+
+
+console.log(calculateTotal(24));
