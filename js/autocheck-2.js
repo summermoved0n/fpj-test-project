@@ -236,17 +236,42 @@
 
 // ! ЗАДАЧА: СУМА ЧИСЕЛ (ЦИКЛ FOR)
 
-function calculateTotal(number) {
- // Change code below this line
-  let total = 0
-  for (let i = 1; i <= number; i++) {
-    total += i
-    }
-      return total
+// function calculateTotal(number) {
+//  // Change code below this line
+//   let total = 0
+//   for (let i = 1; i <= number; i++){
+//     total += i
+//   }
+
+// return total
+//   // Change code above this line
+// }
+
+// console.log(calculateTotal(1));
+// console.log(calculateTotal(3));
+// console.log(calculateTotal(7));
+// console.log(calculateTotal(18));
+// console.log(calculateTotal(24));
+
+// ! Цикл for
+
+// const fruits = ['apple', 'plum', 'pear', 'orange'];
+
+// for (let i = 0; i < fruits.length; i += 1) { // Change this line
+//   const fruit = fruits[i]; // Change this line
+//   console.log(fruit);
+// }
+
+// ! ЗАДАЧА: ОБЧИСЛЕННЯ СУМИ ПОКУПКИ
+
+function calculateTotalPrice(order) {
+  let total = 0;
+  // Change code below this line
+  for (let i = 0; i = order.lenght; i += 1){
+    order += i;
+  }
+  // Change code above this line
+  return total;
 }
 
-
-  // Change code above this line
-
-
-console.log(calculateTotal(24));
+console.log(calculateTotalPrice([12, 85, 37, 4]));
