@@ -264,14 +264,14 @@
 
 // ! ЗАДАЧА: ОБЧИСЛЕННЯ СУМИ ПОКУПКИ
 
-function calculateTotalPrice(order) {
-  let total = 0;
-  // Change code below this line
-  for (let i = 0; i = order.lenght; i += 1){
-    order += i;
-  }
-  // Change code above this line
-  return total;
-}
+// function calculateTotalPrice(order) {
+//   let total = 0;
+//   // Change code below this line
+//   for (let i = 0; i = order.lenght; i += 1){
+//     order += i;
+//   }
+//   // Change code above this line
+//   return total;
+// }
 
-console.log(calculateTotalPrice([12, 85, 37, 4]));
+// console.log(calculateTotalPrice([12, 85, 37, 4]));
