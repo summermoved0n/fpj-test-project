@@ -34,7 +34,7 @@
 //   if (ordered === 0) {
 //     return "Your order is empty!";
 //   }
-  
+
 //   if (ordered > available) {
 //     return "Your order is too large, not enough goods in stock!";
 //   }
@@ -146,7 +146,6 @@
 //   // Change code below this line
 //   string = array.join(delimiter);
 
-
 //   // Change code above this line
 //   return string;
 // }
@@ -164,8 +163,6 @@
 
 //     return title.toLowerCase();
 //   }
-
-
 
 //   // Change code above this line
 // }
@@ -206,7 +203,7 @@
 // console.log(allClients);
 
 // ! ЗАДАЧА: КОМПОЗИЦІЯ МАСИВІВ
-  
+
 // function makeArray(firstArray, secondArray, maxLength) {
 
 //   const newArrey = firstArray.concat(secondArray);
@@ -267,11 +264,36 @@
 // function calculateTotalPrice(order) {
 //   let total = 0;
 //   // Change code below this line
-//   for (let i = 0; i = order.lenght; i += 1){
-//     order += i;
+//   for (let i = 0; i < order.length; i++) {
+//     total += order[i];
 //   }
 //   // Change code above this line
 //   return total;
 // }
 
 // console.log(calculateTotalPrice([12, 85, 37, 4]));
+// console.log(calculateTotalPrice([164, 48, 291]));
+// console.log(calculateTotalPrice([412, 371, 94, 63, 176]));
+
+// ! ЗАДАЧА: ПОШУК НАЙДОВШОГО СЛОВА
+
+function findLongestWord(string) {
+  // Change code below this line
+  const array = string.split(' ');
+  console.log(array)
+
+  let maxLetter = '';
+
+  for (let j = 0; j < array.length; j++) {
+    if (array[j].length > maxLetter.length) {
+      maxLetter = array[j];
+    }
+  }
+
+  console.log(maxLetter)
+  // Change code above this line
+}
+
+console.log(findLongestWord('The quick brown fox jumped over the lazy dog'));
+console.log(findLongestWord('Google do a roll'));
+console.log(findLongestWord('May the force be with you'));
