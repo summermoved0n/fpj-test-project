@@ -336,15 +336,110 @@
 
 // ! Метод includes(value)
 
-function checkFruit(fruit) {
-  const fruits = ['apple', 'plum', 'pear', 'orange'];
-  return fruits.includes(fruit)
-  return; // Change this line
+// function checkFruit(fruit) {
+//   const fruits = ['apple', 'plum', 'pear', 'orange'];
+//   return fruits.includes(fruit)
+//   return; // Change this line
+// }
+
+// console.log(checkFruit('plum'));
+// console.log(checkFruit('mandarin'));
+// console.log(checkFruit('pear'));
+// console.log(checkFruit('Pear'));
+// console.log(checkFruit('apple'));
+
+// ! ЗАДАЧА: СПІЛЬНІ ЕЛЕМЕНТИ
+
+// function getCommonElements(array1, array2) {
+//   // Change code below this line
+//   const newArray = [];
+//   for (let i = 0; i < array1.length; i += 1) {
+//     if (array2.includes(array1[i])) {
+//       newArray.push(array1[i]);
+//     }
+//   }
+//   return newArray;
+
+//   // Change code above this line
+// }
+
+// console.log(getCommonElements([1, 2, 3], [2, 4]));
+// console.log(getCommonElements([1, 2, 3], [2, 1, 17, 19]));
+// console.log(getCommonElements([24, 12, 27, 3], [12, 8, 3, 36, 27]));
+// console.log(getCommonElements([10, 20, 30, 40], [4, 30, 17, 10, 40]));
+// console.log(getCommonElements([1, 2, 3], [10, 20, 30]));
+
+// ! Інструкція for...of
+
+// function calculateTotalPrice(order) {
+//   let total = 0;
+//   // Change code below this line
+
+//   for (const item of order) {
+//     total += item;
+//   }
+
+//   // Change code above this line
+//   return total;
+// }
+
+// console.log(calculateTotalPrice([12, 85, 37, 4]));
+// console.log(calculateTotalPrice([164, 48, 291]));
+// console.log(calculateTotalPrice([412, 371, 94, 63, 176]));
+// console.log(calculateTotalPrice([]));
+
+// ! ЗАДАЧА: ФІЛЬТРАЦІЯ МАСИВУ ЧИСЕЛ 2.0
+
+// function filterArray(numbers, value) {
+//   // Change code below this line
+//   const filteredNumbers = [];
+
+//   for (const number of numbers) {
+//     if (number > value) {
+//       filteredNumbers.push(number);
+//     }
+//   }
+
+//   return filteredNumbers;
+//   // Change code above this line
+// }
+
+// console.log(filterArray([1, 2, 3, 4, 5], 3));
+// console.log(filterArray([1, 2, 3, 4, 5], 4));
+// console.log(filterArray([1, 2, 3, 4, 5], 5));
+// console.log(filterArray([12, 24, 8, 41, 76], 38));
+// console.log(filterArray([12, 24, 8, 41, 76], 20));
+
+// ! Oперація за модулем (%)
+
+// // Change code below this line
+// const a = 3 % 3;
+// console.log(a);
+// const b = 4 % 3;
+// console.log(b);
+// const c = 11 % 4;
+// console.log(c);
+// const d = 12 % 7;
+// console.log(d);
+// const e = 8 % 3;
+// console.log(e);
+
+// ! ЗАДАЧА: ПАРНІ ЧИСЛА
+
+function getEvenNumbers(start, end) {
+  // Change code below this line
+  const result = [];
+  for (let i = start; i < end.length; i += 1) {
+    if (i % 2 === 0) {
+      result.push(result[i])
+    }
+  }
+
+  return result;
+  // Change code above this line
 }
-
-
-console.log(checkFruit('plum'));
-console.log(checkFruit('mandarin'));
-console.log(checkFruit('pear'));
-console.log(checkFruit('Pear'));
-console.log(checkFruit('apple'));
+console.log(getEvenNumbers(2, 5));
+console.log();
+console.log();
+console.log();
+console.log();
