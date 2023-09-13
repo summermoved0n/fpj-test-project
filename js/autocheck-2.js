@@ -426,20 +426,86 @@
 
 // ! ЗАДАЧА: ПАРНІ ЧИСЛА
 
-function getEvenNumbers(start, end) {
-  // Change code below this line
-  const result = [];
-  for (let i = start; i < end.length; i += 1) {
-    if (i % 2 === 0) {
-      result.push(result[i])
-    }
-  }
+// function getEvenNumbers(start, end) {
+//   // Change code below this line
+//   const result = [];
+//   for (let i = start; i <= end; i += 1) {
+//     if (i % 2 === 0) {
+//       result.push(i)
+//     }
+//   }
 
-  return result;
-  // Change code above this line
-}
-console.log(getEvenNumbers(2, 5));
-console.log();
-console.log();
-console.log();
-console.log();
+//   return result;
+//   // Change code above this line
+// }
+// console.log(getEvenNumbers(2, 5));
+// console.log(getEvenNumbers(3, 11));
+// console.log(getEvenNumbers(6, 12));
+// console.log(getEvenNumbers(8, 8));
+// console.log(getEvenNumbers(7, 7));
+
+// ! Oператор break
+
+// const start = 6;
+// const end = 27;
+// let number;
+
+// for (let i = start; i < end; i += 1) {
+//   if (i % 5 === 0) {
+//     number = i;
+//     break
+//   }
+
+// }
+// console.log(number);
+
+// ! Oператор break #2
+
+// function findNumber(start, end, divisor) {
+//   // Change code below this line
+//   let number;
+
+//   for (let i = start; i < end; i += 1) {
+//     if (i % divisor === 0) {
+//       number = i;
+//       return number
+//     }
+//   }
+
+//   // Change code above this line
+// }
+
+// console.log(findNumber(2, 6, 5));
+// console.log(findNumber(8, 17, 3));
+// console.log(findNumber(6, 9, 4));
+// console.log(findNumber(16, 35, 7))
+
+// ! ЗАДАЧА: ФУНКЦІЯ INCLUDES()
+
+// function includes(array, value) {
+//   // Change code below this line
+//   let number
+//   for (let i = 0; i < array.length; i += 1) {
+//     if (array[i] % value === 0) {
+//       number = true;
+//       return number
+//     } else if (array[i] === value) {
+//       number = true;
+//       return number
+//     } else {
+//       number = false;
+//     }
+//   }
+//   return number
+//   // Change code above this line
+// }
+// console.log(includes([1, 2, 3, 4, 5], 3));
+// console.log(includes([1, 2, 3, 4, 5], 17));
+// console.log(
+//   includes(['Earth', 'Mars', 'Venus', 'Jupiter', 'Saturn'], 'Jupiter')
+// );
+// console.log(
+//   includes(['Earth', 'Mars', 'Venus', 'Jupiter', 'Saturn'], 'Uranus')
+// );
+// console.log(includes(['apple', 'plum', 'pear', 'orange'], 'plum'));
+// console.log(includes(['apple', 'plum', 'pear', 'orange'], 'kiwi'));
