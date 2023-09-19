@@ -531,7 +531,164 @@
 
 // ! 27|41
 
-const scores = [89, 64, 42, 17, 93, 51, 26];
-// Change code below this line
-const bestScore = scores;
-const worstScore = scores;
+// const scores = [89, 64, 42, 17, 93, 51, 26];
+// // Change code below this line
+// const bestScore = Math.max(...scores);
+// const worstScore = Math.min(...scores);
+
+// console.log(bestScore);
+// console.log(worstScore);
+
+// ! 28|41
+
+// const firstGroupScores = [64, 42, 93];
+// const secondGroupScores = [89, 14, 51, 26];
+// const thirdGroupScores = [29, 47, 18, 97, 81];
+// // Change code below this line
+// const allScores = [
+//   ...firstGroupScores,
+//   ...secondGroupScores,
+//   ...thirdGroupScores,
+// ];
+// const bestScore = Math.max(...allScores);
+// const worstScore = Math.min(...allScores);
+
+// console.log(allScores);
+// console.log(bestScore);
+// console.log(worstScore);
+
+// ! 29|41
+
+// const defaultSettings = {
+//   theme: "light",
+//   public: true,
+//   withPassword: false,
+//   minNumberOfQuestions: 10,
+//   timePerQuestion: 60,
+// };
+// const overrideSettings = {
+//   public: false,
+//   withPassword: true,
+//   timePerQuestion: 30,
+// };
+// // Change code below this line
+// const finalSettings = { ...defaultSettings, ...overrideSettings };
+// console.log(finalSettings);
+
+// ! 30|41 ЗАДАЧА. КАРТКИ ЗАВДАНЬ
+
+// function makeTask(data) {
+//   const completed = false;
+//   const category = 'General';
+//   const priority = 'Normal';
+//   // Change code below this line
+
+//   return { completed, category, priority, ...data };
+//   // Change code above this line
+// }
+// console.log(makeTask({}));
+// console.log(
+//   makeTask({
+//     category: 'Homemade',
+//     priority: 'Low',
+//     text: 'Take out the trash',
+//   })
+// );
+// console.log(makeTask({ category: 'Finance', text: 'Take interest' }));
+// console.log(makeTask({ priority: 'Low', text: 'Choose shampoo' }));
+// console.log(makeTask({ text: "Buy bread" }))
+
+// ! 31|41
+
+// // Change code below this line
+// function add(...args) {
+//   let total = 0;
+//   for (const arg of args) {
+//     total += arg;
+//   }
+//   return total;
+// }
+
+// console.log(add(15, 27));
+// console.log(add(12, 4, 11, 48));
+// console.log(add(32, 6, 13, 19, 8));
+// console.log(add(74, 11, 62, 46, 12, 36));
+
+// ! 32|41
+
+// // Change code below this line
+// function addOverNum(num, ...args) {
+//   let total = 0;
+
+//   for (const arg of args) {
+//     if (arg > num) {
+//       total += arg;
+//     }
+//   }
+
+//   return total;
+//   // Change code above this line
+// }
+// console.log(addOverNum(50, 15, 27));
+// console.log(addOverNum(10, 12, 4, 11, 48, 10, 8));
+// console.log(addOverNum(15, 32, 6, 13, 19, 8));
+// console.log(addOverNum(20, 74, 11, 62, 46, 12, 36));
+
+// ! 33|41 ЗАДАЧА. МАСИВ ЗБІГІВ
+
+// // Change code below this line
+// function findMatches(array, ...args) {
+//   const matches = []; // Don't change this line
+//   for (const item of array) {
+//     if (args.includes(item)) {
+//       matches.push(item);
+//     }
+//   }
+//   // Change code above this line
+//   return matches;
+// }
+// console.log(findMatches([1, 2, 3, 4, 5], 1, 8, 2, 7));
+// console.log(findMatches([4, 89, 17, 36, 2], 8, 17, 89, 27, 2));
+// console.log(findMatches([10, 24, 41, 6, 9, 19], 24, 11, 9, 23, 41));
+// console.log(findMatches([63, 11, 8, 29], 4, 7, 16));
+
+// ! 34|41
+
+// const bookShelf = {
+//   // Change code below this line
+//   books: ['The last kingdom', 'The guardian of dreams'],
+//   getBooks() {
+//     return 'Returning all books';
+//   },
+//   addBook(bookName) {
+//     return `Adding book ${bookName}`;
+//   },
+//   removeBook(bookName) {
+//     return `Deleting book ${bookName}`;
+//   },
+//   updateBook(oldName, newName) {
+//     return `Updating book ${oldName} to ${newName}`;
+//   }
+//   // Change code above this line
+// };
+// console.log(bookShelf.getBooks());
+// console.log(bookShelf.addBook('Haze'));
+// console.log(bookShelf.removeBook('Red sunset'));
+// console.log(bookShelf.updateBook('Sands of dune', 'Dune'));
+
+// ! 35|41
+
+// const bookShelf = {
+//   books: ['The last kingdom', 'Haze', 'The guardian of dreams'],
+//   updateBook(oldName, newName) {
+//     // Change code below this line
+//     this.books.splice(this.books.indexOf(oldName), 1, newName);
+//     // Change code above this line
+//     return this.books;
+//   },
+// };
+
+// // console.log(bookShelf.updateBook('Haze', 'Dungeon chronicles'));
+// console.log(bookShelf.updateBook('The last kingdom', 'Dune'));
+
+// ! 36|41 ЗАДАЧА. КРАМНИЦЯ ЗІЛЛЯ «У СТАРОЇ ЖАБИ»
