@@ -1,0 +1,2 @@
+!function(){var e=document.querySelector(".popap-link"),n=document.getElementById("popap"),t=document.querySelector(".popap-close-btn");e.addEventListener("click",(function(e){e.preventDefault(),n.classList.remove("is-hidden")})),t.addEventListener("click",(function(e){e.preventDefault(),n.classList.add("is-hidden")})),document.addEventListener("keyup",(function(e){e.preventDefault(),"Escape"===e.key&&(console.log("esc"),n.classList.add("is-hidden"))}))}();
+//# sourceMappingURL=index.d146cc18.js.map

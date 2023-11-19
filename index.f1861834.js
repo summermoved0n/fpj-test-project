@@ -1,0 +1,2 @@
+const e=document.querySelector(".popap-link"),t=document.getElementById("popap"),d=document.querySelector(".popap-close-btn");e.addEventListener("click",(e=>{e.preventDefault(),t.classList.remove("is-hidden")})),d.addEventListener("click",(e=>{e.preventDefault(),t.classList.add("is-hidden")})),document.addEventListener("keyup",(e=>{e.preventDefault(),"Escape"===e.key&&(console.log("esc"),t.classList.add("is-hidden"))}));
+//# sourceMappingURL=index.f1861834.js.map
