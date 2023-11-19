@@ -1,0 +1,21 @@
+const aboutText = document.querySelector('.popap-link');
+const showModal = document.getElementById('popap');
+const hideModal = document.querySelector('.popap-close-btn');
+
+aboutText.addEventListener('click', e => {
+  e.preventDefault();
+  showModal.classList.remove('is-hidden');
+});
+
+hideModal.addEventListener('click', e => {
+  e.preventDefault();
+  showModal.classList.add('is-hidden');
+});
+
+document.addEventListener('keyup', e => {
+  e.preventDefault();
+  if (e.key === 'Escape') {
+    console.log('esc');
+    showModal.classList.add('is-hidden');
+  }return
+});
