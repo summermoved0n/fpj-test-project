@@ -1,5 +1,6 @@
 const aboutText = document.querySelector('.popap-link');
 const showModal = document.getElementById('popap');
+const backDrop = document.querySelector('.popap-body')
 const hideModal = document.querySelector('.popap-close-btn');
 
 aboutText.addEventListener('click', e => {
@@ -19,3 +20,10 @@ document.addEventListener('keyup', e => {
     showModal.classList.add('is-hidden');
   }return
 });
+
+document.addEventListener('click', e => {
+  e.preventDefault();
+  if (e.target === backDrop) {
+    showModal.classList.add('is-hidden');
+  }
+})
