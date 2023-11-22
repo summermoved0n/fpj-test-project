@@ -5,6 +5,7 @@ const hideModal = document.querySelector('.popap-close-btn');
 
 aboutText.addEventListener('click', e => {
   e.preventDefault();
+  // showModal.classList.add('open')
   showModal.classList.remove('is-hidden');
 });
 
